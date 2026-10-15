@@ -1,0 +1,40 @@
+{
+  "user": [
+    {
+      "name": "madhu jai",
+      "password": "12345678",
+      "conformpassword": "12345678",
+      "email": "luckysandy46@gmail.com",
+      "id": "If_cax10Xu4"
+    },
+    {
+      "name": "madhu jai",
+      "password": "1234567",
+      "conformpassword": "1234567",
+      "email": "madhu@gmail.com",
+      "id": "kinYBdytC7E"
+    },
+    {
+      "name": "madhu jai",
+      "password": "1234567",
+      "conformpassword": "1234567",
+      "email": "madhum@gmail.com",
+      "id": "ID5ZUntUQ4s"
+    },
+    {
+      "name": "siva",
+      "password": "12345678",
+      "conformpassword": "12345678",
+      "email": "siva@gmail.com",
+      "id": "yFsHpGLYhMY"
+    },
+    {
+      "name": "sidhu",
+      "password": "123456789",
+      "conformpassword": "123456789",
+      "email": "sidhu@gmail.com",
+      "id": "dRO6m3OKMpk"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

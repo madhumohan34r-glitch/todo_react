@@ -1,0 +1,58 @@
+/* Movie.css */
+
+.allmovies {
+  width: 100%;
+  min-height: 100vh;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 25px;
+
+  box-sizing: border-box;
+}
+
+.allmovies > * {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.allmovies > *:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .allmovies {
+    padding: 20px;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .allmovies {
+    padding: 15px;
+    gap: 15px;
+    grid-template-columns: 1fr;
+  }
+}
+
+.show-more-btn {
+  padding: 10px 20px;
+  margin: 20px auto;
+  display: block;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.show-more-btn:hover {
+  background-color: #0056b3;
+}
+
+.movie-link {
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pic {
+    height: 300px;
+    width: 100%;
+    border-radius: 3%;
+    overflow: hidden;
+}
+
+.rating {
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+.title {
+    text-align: center;
+    font-family: serif;
+
+}

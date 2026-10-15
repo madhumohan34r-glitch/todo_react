@@ -135,10 +135,10 @@
 }
 
 /* Active Link */
-.nav-links li a.active {
+.error {
   color: red;
   font-weight: bold;
-} */
+}
 
 login
 * {
